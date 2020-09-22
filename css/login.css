@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+  	padding: 0;
+}
+body{
+  	color: #e69900;
+  	font-size: 22px;
+  	font-family: 'Bree Serif';
+  	background-image: url(../res/images/black.jpg);
+  	background-size: cover;
+}
+.title{
+  	text-align: center;
+  	padding: 50px 0 20px;
+}
+.title h1{
+	margin: 0;
+	padding: 0;
+	font-size: 28px;
+}
+.container{
+	position: absolute;
+	top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+	width: 25%;
+	height: 400px;
+	font-size: 16px;
+	background: #fff;
+	border-radius: 8px;
+	box-shadow: 0 15px 40px rgba(0, 0, 0, .5);
+}
+.login_form {
+	padding: 10px 40px;
+	border-radius: 6px;
+	box-sizing: border-box;
+	background: #fff;
+}
+.login_form h2{
+	text-align: center;
+	margin-top: 10px;
+	padding-bottom: 20px;
+}
+.login_form p{
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+	color: #e69900;
+}
+.login_form input{
+	width: 100%;
+	margin-bottom: 20px;
+	border-radius: 4px;
+}
+.login_form input[type="Email"], 
+.login_form input[type="Password"] {
+	border: none;
+	border-bottom: 2px solid #D9E26E;
+	outline: none;
+	height: 30px;
+}
+.login_form input[type="Email"]:focus,
+.login_form input[type="Password"]:focus{
+	border-bottom: 2px solid #e69900;
+}
+.login_form input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	background: #a6af13;
+	cursor: pointer;
+}
+.login_form input[type="submit"]:hover{
+	background: #e69900;
+}
+.login_form a{
+	color: #A6AF13;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.login_form a:hover{
+	color: #e69900;
+}
+#new_account{
+	color: #000000;
+	margin-top: 10px;
+}
+
+@media only screen and (max-width: 1300px) {
+  /* For mobile phones: */
+  body {
+  	background-size: auto;
+  }
+  .container {
+  	width: 75%;
+  }
+}
